@@ -61,29 +61,31 @@ Note:
 * Maintenance: bug squashing, manual intervention
 
 ---?image=assets/techDebtQuadrant.png&size=auto
-### How is it created?
 
 Note:
 * All can produce it
-* Top right common in startups
+* Top right common in startups, to decrease time to market
 * Bottom right is common case
 * Bottom left, lack of knowledge
-* Bad culture, we don't want to see
-
----
-### How is it created?
-
-- many
-- ways |
-- Repeatedly changed code incurs debt organically |
-
-Note:
+* Boy scout rule, Uncle Bob
+* Broken window can have an effect too
+* Could be bad culture, we don't want to see
 
 ---
 ### What can we do to minimise creation of it?
 
+- Code review
+ - Spread knowledge |
+ - Catch refactoring candidates |
+ - Catch missing test cases |
+- Tooling |
+ - Code coverage |
+ - Mandatory reviews |
+- Knowledge sharing
 
 Note:
+* human factor
+* Tooling to automate as much as possible
 
 ---
 ### Can we identify existing tech debt?
