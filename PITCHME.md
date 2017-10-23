@@ -60,7 +60,7 @@ Note:
 * Through inefficient code/architecture
 * Maintenance: bug squashing, manual intervention
 
----?image=assets/tech-debt-quadrant.png&size=auto
+---?image=assets/techDebtQuadrant.png&size=auto
 ### How is it created?
 
 Note:
