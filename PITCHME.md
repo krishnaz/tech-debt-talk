@@ -1,7 +1,7 @@
 @title[Quantifying Tech Debt]
 ## Quantifying Tech Debt
  
-#### Ideas to eliminate and find tech debt.
+#### Ideas to find and reduce tech debt
 
 ---
 ### What is tech debt?
@@ -81,7 +81,7 @@ Note:
 - Tooling |
  - Code coverage |
  - Mandatory reviews |
-- Knowledge sharing
+- Knowledge sharing |
 
 Note:
 * human factor
