@@ -82,38 +82,126 @@ Note:
  - Code coverage |
  - Mandatory reviews |
 - Knowledge sharing |
+- In a utopia this would all happen, and all tools in place from day 0
 
 Note:
-* human factor
 * Tooling to automate as much as possible
+* human factor
+* quick fixes
+* Friday evening PRs
+* Tooling not in place
+* Large PRs
+* But also tools only useful if react, otherwise just noise
 
 ---
-### Can we identify existing tech debt?
+### Not all tech debt is costly
 
+- Overall quality should be high
+- Quality should be highest where code is changed most often |
+- Not always predictable |
+- History could be used
 
 Note:
 
 ---
-### Identifying tech debt in code
+### Identifying high interest tech debt in code
 
+- Measure code complexity
+ - Cyclomatic complexity not as useful for functional |
+- Use git logs |
+- Wealth of info |
+ - Number of changes |
+ - Number of authors |
+ - Link to Jira ticket ID |
+  - Feature vs Bug rate info |
 
 Note:
+* Ideas from Tech debt talk by Adam Tornhill: https://www.infoq.com/presentations/priority-technical-debt
+* not cyclomatic, but just whitespace analysis. Could try others
+* 
 
 ---
-### Identifying tech debt in components
+### Analysis examples to identify tech debt in code
+
+- Looked at Apache Spark codebase
+- HotSpot Analysis |
+- Complexity and LoC trends |
+- Temporal coupling |
+
+Note:
+* Apache Spark code base
+* HotSpot
+
+---?image=assets/hotSpotKey.png&size=auto
 
 
 Note:
+* Git log for changes
+* whitespace analysis for complexity indicator
+
+---?image=assets/powerLawFilesChangeFreq.png&size=auto
+      
+      
+Note:
+* General rule
+
+---?image=assets/sparkHotSpotOverview.png&size=auto
+   
+   
+Note:
+* Reflects package structure
+* uses MoosePlatform for visualisations
+   
+---?image=assets/hotSpotSparkSqlParserFocus.png&size=auto
+      
+      
+Note:
+* Highlights SparkSqlParser.scala
+
+---?image=assets/sparkSqlParserFunctionAnalysis.png&size=auto
+      
+      
+Note:
+* Focus on particular functions
+
+---?image=assets/sparkSqlParserComplexityLoCTrends.png&size=auto
+      
+      
+Note:
+* Bad from beginning
+* refactor attempted
+* creeping up again
+* Monitor trends, build tool?
+
+---?image=assets/temporalCouplingDesc.png&size=auto
+      
+      
+Note:
+* % of commits where a particular other file is also modified
+
+---
+### Identifying high interest tech debt in components
+
+- Jira Ticket ID
+ - temporal coupling |
+ - feature based |
+ - bug based |
+- Alert based | 
+- LoC trends |
+
+Note:
+* Similar analysis, but at component level
+* Temporal may mean merge components, or reduce coupling to increase cohesion
+* Highly changed means refactor to ease change
+* Highly buggy could indicate issues
+* Alert based, similar to bugs, but shows high maintenance
+* LoC should ideally stabilise, could indicate attracting change for multiple reasons
 
 ---
 ### Identifying tech debt in teams?
 
-
-Note:
-
----
-### What is the current ideal?
-
+- Separate teams
+-  |
 
 Note:
 
