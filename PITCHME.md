@@ -3,6 +3,13 @@
  
 #### Ideas to find and reduce tech debt
 
+Note:
+* First try to define tech debt
+* Problems it causes
+* Cause of it
+* How to minimise creation
+* How to identify it at code/component/team level
+
 ---
 ### What is tech debt?
 
@@ -201,9 +208,14 @@ Note:
 ### Identifying tech debt in teams?
 
 - Separate teams
--  |
+ - Inefficiencies of communication |
+- Coupled teams |
+- Spawn separate teams? |
 
 Note:
+* Separate but always working on features together -> merge
+* Coupled teams -> major change in one team requiring changes in another -> reduce coupling
+* Diverse features requiring same team to implement -> split team?
 
 ---
 ### Thoughts/questions?
