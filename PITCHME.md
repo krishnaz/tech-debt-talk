@@ -59,15 +59,15 @@ Note:
 * All can produce it
 * Top right common in startups, to decrease time to market
 * Bottom right is common case
-* Bottom left, lack of knowledge
-* Boy scout rule, Uncle Bob
-* Broken window can have an effect too
+* Bottom left, lack of knowledge, layering: separation of concerns
 * Could be bad culture, we don't want to see
+* Broken window can have an effect too
+* Boy scout rule, Uncle Bob
 
 ---
 ### What problems does it cause?
 
-- Cause defects
+- Cause defects |
 - Slow down development of new features |
  - Directly: when implementing the feature |
  - Indirectly: by taking time away through maintenance |
@@ -81,7 +81,7 @@ Note:
 ---
 ### What can we do to minimise creation of it?
 
-- Code review
+- Code review |
  - Spread knowledge |
  - Catch refactoring candidates |
  - Catch missing test cases |
@@ -89,7 +89,7 @@ Note:
  - Code coverage |
  - Mandatory reviews |
 - Knowledge sharing |
-- In a utopia this would all happen, and all tools in place from day 0
+- In a utopia this would all happen, and all tools in place from day 0 |
 
 Note:
 * Tooling to automate as much as possible
@@ -103,17 +103,17 @@ Note:
 ---
 ### Not all tech debt is costly
 
-- Overall quality should be high
+- Overall quality should be high |
 - Quality should be highest where code is changed most often |
 - Not always predictable |
-- History could be used
+- History could be used |
 
 Note:
 
 ---
 ### Identifying high interest tech debt in code
 
-- Measure code complexity
+- Measure code complexity |
  - Cyclomatic complexity not as useful for functional |
 - Use git logs |
 - Wealth of info |
@@ -130,7 +130,7 @@ Note:
 ---
 ### Analysis examples to identify tech debt in code
 
-- Looked at Apache Spark codebase
+- Looked at Apache Spark codebase |
 - HotSpot Analysis |
 - Complexity and LoC trends |
 - Temporal coupling |
@@ -189,7 +189,7 @@ Note:
 ---
 ### Identifying high interest tech debt in components
 
-- Jira Ticket ID
+- Jira Ticket ID |
  - temporal coupling |
  - feature based |
  - bug based |
@@ -207,7 +207,7 @@ Note:
 ---
 ### Identifying tech debt in teams?
 
-- Separate teams
+- Separate teams |
  - Inefficiencies of communication |
 - Coupled teams |
 - Spawn separate teams? |
