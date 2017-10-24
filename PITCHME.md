@@ -13,7 +13,7 @@ Note:
 ---
 ### What is tech debt?
 
-- Has become a loose, umbrella term
+- Has become a loose, umbrella term |
 
 Note:
 * Catch all for bad code, not writing tests, not following software eng
@@ -109,23 +109,26 @@ Note:
 - History could be used |
 
 Note:
+* Culture
 
 ---
 ### Identifying high interest tech debt in code
 
 - Measure code complexity |
  - Cyclomatic complexity not as useful for functional |
+ - whitespace as a proxy |
+ - function length |
 - Use git logs |
-- Wealth of info |
- - Number of changes |
- - Number of authors |
- - Link to Jira ticket ID |
-  - Feature vs Bug rate info |
+ - Wealth of info |
+  - Number of changes |
+  - Number of authors |
+  - Link to Jira ticket ID |
+   - Feature vs Bug rate info |
 
 Note:
 * Ideas from Tech debt talk by Adam Tornhill: https://www.infoq.com/presentations/priority-technical-debt
 * not cyclomatic, but just whitespace analysis. Could try others
-* 
+* historical gold mine: git log
 
 ---
 ### Analysis examples to identify tech debt in code
