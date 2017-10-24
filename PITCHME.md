@@ -76,8 +76,8 @@ Note:
 ---
 ### Not all tech debt is costly
 
+- Overall quality should be high everywhere |
 - Quality should be highest where code is changed most often |
-- Overall quality should be high |
 - Not always predictable |
 - History could be used |
 
