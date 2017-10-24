@@ -88,7 +88,7 @@ Note:
 * overall quality from culture and standards
 
 ---
-### Identifying high interest tech debt in code
+### Identifying high interest rates in code
 
 - Measure code complexity |
  - Cyclomatic complexity not as useful for functional |
