@@ -19,7 +19,7 @@ Note:
 * Not an excuse to put off refactoring
 
 ---
-### Tech debt occurs organically
+### Code deteriorates organically
 
 > "As an evolving program is continually changed, its complexity, reflecting  
 > deteriorating structure, increases unless work is done to maintain or reduce it."
