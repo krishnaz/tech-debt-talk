@@ -80,8 +80,8 @@ Note:
 ### Not all tech debt is costly
 
 - Quality should be highest where code is changed most often |
-- Not always predictable |
 - Overall quality should be high |
+- Not always predictable |
 - History could be used |
 
 Note:
