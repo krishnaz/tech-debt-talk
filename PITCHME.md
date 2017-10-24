@@ -58,8 +58,6 @@ Note:
 * Bottom left, lack of knowledge, layering: separation of concerns
 * Could be new tech, not tuned right
 * Top left: Could be bad culture, we don't want to see
-* Broken window can have an effect too
-* Boy scout rule, Uncle Bob
 
 ---
 ### What problems could it cause?
@@ -74,7 +72,6 @@ Note:
 * Defects through not applying DRY
 * Directly by needing to first understand complex code
 * Indirectly through maintenance: bug squashing, manual intervention
-* Indirectly through inefficient code/architecture
 
 ---
 ### Not all tech debt is costly
@@ -188,7 +185,7 @@ Note:
 
 Note:
 * Similar analysis, but at component level
-* Frquency high means refactor to ease change
+* Frequency high means refactor to ease change
 * Temporal may mean merge components, or reduce coupling to increase cohesion
 * Highly buggy could indicate issues
 * Alert based, similar to bugs, but shows high maintenance
