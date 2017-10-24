@@ -8,7 +8,7 @@ Note:
 * Problems it causes
 * Cause of it
 * How to minimise creation
-* How to identify it at code/component/team level
+* Quantitatively identify it at code/component/team level
 
 ---
 ### What is tech debt?
@@ -16,12 +16,12 @@ Note:
 - Has become a loose, umbrella term
 
 Note:
-* Catch all for bad code, not writing tests
+* Catch all for bad code, not writing tests, not following software eng
 * Putting off refactoring
 * Not using the latest libs
 
 ---
-### What is tech debt?
+### Tech debt occurs organically
 
 > "As an evolving program is continually changed, its complexity, reflecting  
 > deteriorating structure, increases unless work is done to maintain or reduce it."
@@ -33,7 +33,7 @@ Note:
 * Ages ago
 
 ---
-### What is tech debt?
+### Not all tech debt is equal
 
 > "A little debt speeds development so 
 > long as it is paid back promptly with a rewrite... 
@@ -53,6 +53,17 @@ Note:
 * Not all tech debt is equal
 * Various interest rates based on quality as well as time spent on it
 
+---?image=assets/techDebtQuadrant.png&size=auto
+
+Note:
+* All can produce it
+* Top right common in startups, to decrease time to market
+* Bottom right is common case
+* Bottom left, lack of knowledge
+* Boy scout rule, Uncle Bob
+* Broken window can have an effect too
+* Could be bad culture, we don't want to see
+
 ---
 ### What problems does it cause?
 
@@ -66,17 +77,6 @@ Note:
 * Through not applying DRY
 * Through inefficient code/architecture
 * Maintenance: bug squashing, manual intervention
-
----?image=assets/techDebtQuadrant.png&size=auto
-
-Note:
-* All can produce it
-* Top right common in startups, to decrease time to market
-* Bottom right is common case
-* Bottom left, lack of knowledge
-* Boy scout rule, Uncle Bob
-* Broken window can have an effect too
-* Could be bad culture, we don't want to see
 
 ---
 ### What can we do to minimise creation of it?
