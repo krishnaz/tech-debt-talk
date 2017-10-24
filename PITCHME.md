@@ -1,7 +1,7 @@
 @title[Quantifying Tech Debt]
 ## Quantifying Tech Debt
  
-#### Ideas to find and reduce tech debt
+#### Ideas to find and reduce costly tech debt
 
 Note:
 * First try to define tech debt
