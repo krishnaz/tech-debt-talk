@@ -133,6 +133,7 @@ Note:
 ---
 ### Analysis examples to identify tech debt in code
 
+- Used Code Maat tool by Adam Tornhill |
 - Looked at Apache Spark codebase |
 - HotSpot Analysis |
 - Complexity and LoC trends |
@@ -140,12 +141,14 @@ Note:
 
 Note:
 * Apache Spark code base
-* HotSpot
+* Used CodeScene tool, opensource scripts available
+* 
 
 ---?image=assets/hotSpotKey.png&size=auto
 
 
 Note:
+* size and colour
 * Git log for changes
 * whitespace analysis for complexity indicator
 
@@ -154,11 +157,13 @@ Note:
       
 Note:
 * General rule
+* focus efforts
 
 ---?image=assets/sparkHotSpotOverview.png&size=auto
    
    
 Note:
+* hotspot overview
 * Reflects package structure
 * uses MoosePlatform for visualisations
    
@@ -166,18 +171,21 @@ Note:
       
       
 Note:
+* Focus on problem file
 * Highlights SparkSqlParser.scala
 
 ---?image=assets/sparkSqlParserFunctionAnalysis.png&size=auto
       
       
 Note:
+* Focus on file
 * Focus on particular functions
 
 ---?image=assets/sparkSqlParserComplexityLoCTrends.png&size=auto
       
       
 Note:
+* Complexity and LoC trends
 * Bad from beginning
 * refactor attempted
 * creeping up again
@@ -187,17 +195,21 @@ Note:
       
       
 Note:
+* Temporal coupling
 * % of commits where a particular other file is also modified
+* git log has this
+* Identify refactor candidates, merge files to be more cohesive
 
 ---
 ### Identifying high interest tech debt in components
 
+- Change frequency
 - Jira Ticket ID |
  - temporal coupling |
  - feature based |
  - bug based |
 - Alert based | 
-- LoC trends |
+- LoC change frequency trends |
 
 Note:
 * Similar analysis, but at component level
@@ -210,10 +222,12 @@ Note:
 ---
 ### Identifying tech debt in teams?
 
-- Separate teams |
+- Separate teams frequently working together |
  - Inefficiencies of communication |
 - Coupled teams |
-- Spawn separate teams? |
+ - Coupled components across teams |
+- Diverse features requiring same team |
+ - Spawn separate teams? |
 
 Note:
 * Separate but always working on features together -> merge
