@@ -207,6 +207,21 @@ Note:
 * Diverse features requiring same team to implement -> split team?
 
 ---
+### Summary
+
+- Demystified tech debt |
+- Not all tech debt is costly |
+- Identify costly tech debt in code |
+- Identify costly component tech debt |
+- Touched upon broadening tech debt to apply to teams |
+
+Note:
+* Separate but always working on features together -> merge
+* Coupled teams -> major change in one team requiring changes in another -> reduce coupling
+* Diverse features requiring same team to implement -> split team?
+
+
+---
 ### Thoughts/questions?
 
 
