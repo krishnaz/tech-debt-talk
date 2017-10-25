@@ -3,6 +3,8 @@
  
 #### Ideas to identify costly tech debt
 
+Krishna Rao - ATE BE Engineer
+
 Note:
 * First try to define tech debt
 * Problems it causes
