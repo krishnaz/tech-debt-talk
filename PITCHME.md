@@ -216,10 +216,11 @@ Note:
 - Touched upon broadening tech debt to apply to teams |
 
 Note:
-* Separate but always working on features together -> merge
-* Coupled teams -> major change in one team requiring changes in another -> reduce coupling
-* Diverse features requiring same team to implement -> split team?
-
+* Demystified, clarified term
+* Not all: prioritise defeating costly tech debt
+* Quantitative approach to identifying costly tech debt
+* Touch upon applying to components
+* Could we apply to teams to reduce inefficiencies?
 
 ---
 ### Thoughts/questions?
