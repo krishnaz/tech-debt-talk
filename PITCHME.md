@@ -126,14 +126,14 @@ Note:
 * Git log for changes
 * whitespace analysis for complexity indicator
 
----?image=assets/powerLawFilesChangeFreq.png&size=auto
+---?image=assets/powerLawFilesChangeFreq.png&size=contain
       
       
 Note:
 * General rule
 * focus efforts
 
----?image=assets/sparkHotSpotOverview.png&size=auto
+---?image=assets/sparkHotSpotOverview.png&size=contain
    
    
 Note:
@@ -141,14 +141,14 @@ Note:
 * Reflects package structure
 * uses MoosePlatform for visualisations
    
----?image=assets/hotSpotSparkSqlParserFocus.png&size=auto
+---?image=assets/hotSpotSparkSqlParserFocus.png&size=contain
       
       
 Note:
 * Focus on problem file
 * Highlights SparkSqlParser.scala
 
----?image=assets/sparkSqlParserFunctionAnalysis.png&size=auto
+---?image=assets/sparkSqlParserFunctionAnalysis.png&size=contain
       
       
 Note:
@@ -156,7 +156,7 @@ Note:
 * Focus on particular functions
 * Perhaps not as side project, but warning before next development task touching it
 
----?image=assets/sparkSqlParserComplexityLoCTrends.png&size=auto
+---?image=assets/sparkSqlParserComplexityLoCTrends.png&size=contain
       
       
 Note:
